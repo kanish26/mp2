@@ -1,5 +1,4 @@
-/* Entry file: wires up React Router and your App. 
- */
+/* Entry file: wires up React Router and your App. */
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
