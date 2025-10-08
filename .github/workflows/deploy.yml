@@ -42,7 +42,7 @@ jobs:
 
       - name: Build
         env:
-          REACT_APP_TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          REACT_APP_TMDB_API_KEY: ${{ secrets.TMDB_API_KEY}}
         run: |
           npm run build
           # SPA fallback so /movie/123 refresh works on Pages (BrowserRouter)
